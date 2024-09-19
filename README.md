@@ -1,5 +1,5 @@
 # Adster Forecasting Service
-This project provides a forecasting service for an ad server platform. It includes an API for uploading CSV files and processing ad requests. This project is deployed on free AWS EC2 VM.
+This project provides a forecasting service for an ad server platform. It includes an API for uploading CSV files and processing ad requests. This project is deployed on free AWS EC2 VM Elastic IP (3.109.166.241).
 
 ### Table of Contents
 * Requirements
