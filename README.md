@@ -24,10 +24,10 @@ Redis (using Free version from cloud.redis.io)
 Curl or Postman for testing the API
 
 ### Setup
-1. Clone the repository 
-2. Install dependencies
+1. Clone the repository (git clone https://github.com/theroyalraj/adster-forcasting.git)
+2. Install dependencies (go mod tidy)
 3. Update Environment variables if needed
-4. Run the Application
+4. Run the Application (go run main.go)
 
 ### API Endpoints
 1. Forecast API
