@@ -33,7 +33,7 @@ Curl or Postman for testing the API
 1. Forecast API
 Please not all the filters are not implemented. Need more understanding of domain knowledge like target_type, target_id etc
 
-``` curl -X POST http://localhost:8080/forecast \
+``` curl -X POST http://3.109.166.241:8080/forecast \
 -H "Content-Type: application/json" \
 -d '{
   "geo_target": {
@@ -61,7 +61,7 @@ Please not all the filters are not implemented. Need more understanding of domai
 Used batching of 1000 records per batch. 
 
 ```
-curl -X PUT -F 'file=@sample.csv' http://localhost:8080/upload-csv
+curl -X PUT -F 'file=@sample.csv' http://3.109.166.241:8080/upload-csv
 ```
 
 
