@@ -1,6 +1,6 @@
 module github.com/theroyalraj/adster-forcasting
 
-go 1.23.1
+go 1.23
 
 require (
 	github.com/go-redis/redis/v8 v8.11.5
