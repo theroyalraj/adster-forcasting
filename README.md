@@ -33,7 +33,8 @@ Curl or Postman for testing the API
 1. Forecast API
 Please not all the filters are not implemented. Need more understanding of domain knowledge like target_type, target_id etc
 
-``` curl -X POST http://3.109.166.241:8080/forecast \
+``` 
+curl -X POST http://3.109.166.241:8080/forecast \
 -H "Content-Type: application/json" \
 -d '{
   "geo_target": {
